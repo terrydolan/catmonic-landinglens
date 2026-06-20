@@ -27,8 +27,7 @@ The app's classification is tweeted on social media and therefore available for
 viewing.
 Here is an example automatic tweet from *Catmon* with the LandingLens
 ConvNext-[29M] model:  
-<img src="https://raw.githubusercontent.com/terrydolan/catmonic-landinglens/main/images/catmonic_landinglens_classification_example_2026-06-18_115835.jpg](images/catmonic_landinglens_classification_example_2026-06-18_115835.jpg)" width="300">
-
+<img src="https://raw.githubusercontent.com/terrydolan/catmonic-landinglens/main/images/catmonic_landinglens_classification_example_2026-06-18_115835.jpg" width="400">
 ## Catmonic's Test App
 
 The catmonic cli app, in the *catmonic-app* folder, uses *Catmonic* to
