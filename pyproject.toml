@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "catmonic-landinglens"
+version = "0.1.0"
+dependencies = [
+    "requests==2.32.3",
+    "landingai==0.3.49",
+    "python-dotenv==1.0.1",
+    "Pillow==9.2.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["catmonic*"]

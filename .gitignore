@@ -1,0 +1,56 @@
+# non-project files to ignore
+*.bat
+*.ipynb
+*.jpg
+*.log
+*.p
+*.pdf
+*.png
+*.pptx
+*.pyc
+*.pylintrc
+*.tmp
+*.txt
+*.xlsx
+tmp*.*
+*.old*
+*~*
+*.sav*
+*.sh
+*.zip
+Thumbs.db
+
+# config files (may have sensitive data)
+*.ini
+
+# env and streamlit secrets
+.env
+.streamlit
+
+# untracked scripts
+bin/*
+
+# jupyter notebook and checkpoint files
+.ipynb_checkpoints/
+
+# IDE, pycharm
+.idea/
+/.idea
+
+# archive and tmp folder files
+archive*/
+snapshot*/
+tmp*/
+*/tmp*.*
+*/tmp*/
+
+# package egg files
+*.egg-info/
+
+# override
+!requirements.txt
+!images/*.jpg
+!catmonic-app/*.bat
+!catmonic-app/*.sh
+
+
